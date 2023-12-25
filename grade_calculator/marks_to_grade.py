@@ -64,8 +64,7 @@ for i in range(1, 10):
 file1 = open('Gradesheet', 'a')
 f = "\n---------------------- Congragulations to all!! --------------------\n"
 
-# Writing multiple strings
-# at a time
+# Write single line
 file1.write(f)
 
 # Closing file
