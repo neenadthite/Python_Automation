@@ -24,7 +24,7 @@ workbook = xlrd.open_workbook(filename)
 # Open the worksheet
 worksheet = workbook.sheet_by_index(0)
 
-for i in range(1, 10):
+for i in range(1, worksheet.nrows):
        #Extract variable name
     for j in range(0, 1):
         # Print the cell values with tab space
